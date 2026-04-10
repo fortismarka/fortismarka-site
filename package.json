@@ -2,7 +2,13 @@
   "name": "fortismarka-site",
   "version": "1.0.0",
   "scripts": {
-    "start": "serve -l $PORT"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "start": "npx serve dist -l $PORT"
+  },
+  "devDependencies": {
+    "astro": "^5.0.0"
   },
   "dependencies": {
     "serve": "^14.2.0"
