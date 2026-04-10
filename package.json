@@ -7,6 +7,9 @@
     "preview": "astro preview",
     "start": "npx serve dist -l $PORT"
   },
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "dependencies": {
     "astro": "^5.0.0",
     "serve": "^14.2.0"
